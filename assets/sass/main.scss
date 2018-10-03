@@ -1,0 +1,52 @@
+@import 'variables';
+
+body {
+    background-color: $backcolor;
+    margin: 0;
+    padding: 35px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+
+    hr {
+        height: 2px;
+        background-color: $texttwo;
+        border-width: 0;
+    }
+}
+
+.main-title {
+    text-align: center;
+    color: $textone;
+}
+
+.sub-title {
+    text-align: center;
+    font-style: italic;
+    color: $textone;
+}
+
+.nav {
+    list-style-type: none;
+    text-align: center;
+
+    &__item {
+        display: inline-block;
+        width: 100px;
+        height: auto;
+        margin: 10px;
+        padding: 5px;
+        border-bottom: 2px solid $textone;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    &__item:hover {
+        border-bottom-color: $texttwo;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}

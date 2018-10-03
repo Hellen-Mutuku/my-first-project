@@ -1,0 +1,39 @@
+ul{
+    color:green;
+    font-size:20px;
+    text-transform: uppercase; 
+}
+#admin{
+    color:goldenrod;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ct{
+    color:turquoise;
+    text-transform: unset;
+    font-style: italic;
+    text-decoration:underline;
+}
+#lib {
+    width: 150px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+#lib:hover{
+    color: white;
+    background-color: purple;
+}
+
+.dropdown {
+    display: none;
+}
+
+#lib:hover ~ .dropdown{
+    display: block;
+}
+
+li {
+    display: inline-block;
+}

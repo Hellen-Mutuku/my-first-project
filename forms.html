@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Introduction to html forms</title>
+        <style>
+            #gndr {
+                width: 30%;
+                border: 1px solid seagreen;
+                border-radius: 5px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>My first HTML Form</h3>
+        <hr>
+
+        <form  target="_self" method="get">
+            <fieldset>
+                <legend> my personal information</legend>
+            <label>firstname</label><br>
+            <input type="text" placeholder="kadoli"><br>
+            lastname<br>
+            <input type="text" name="firstname" value="felix"><br>
+            age<br>
+            <input type="number"><br>
+            password<br>
+            <input type="password" min="5" autofocus><br>
+            <fieldset id="gndr">
+                <legend>Gender</legend>
+            <input type="radio" name="gender"> male<br>
+            <input type="radio" name="gender" checked>female<br>
+
+            </fieldset>
+            <input type="datetime-local"><br><br>
+            <input type="textarea" cols=20 rows=10><br>
+            <input type="submit" value="Save Data">
+        </fieldset>
+        </form>
+    </body>
+</html>

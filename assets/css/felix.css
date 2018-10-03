@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(231, 45, 12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.header__title {
+    font-size: 50px;
+    margin: 0;
+    padding:0;
+}
+
+.header__text {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.sd {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.sidebar {
+    float:right;
+    width: 20%;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+.sidebar__item {
+    background-color: rgb(236, 47, 13);
+    border: 1.5px solid rgb(236, 47, 13);
+    border-radius: 50px;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.sidebar__item:hover {
+    cursor: pointer;
+    background-color: white;
+    color:red;
+}
+
+.main__header, .main__smallh, .footer__header {
+    color: rgb(236, 47, 13);
+    font-size: 30px;
+    
+}
+.main__link {
+    color: tomato;
+    text-decoration: none;
+}
+
+.main__link:hover {
+text-decoration: underline;
+}
+
+.sidebar > a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #F6DAD7;
+    margin-top: -15px;
+    padding: 20px;
+    color: rgb(226, 26, 26);
+    border-radius: 5px;
+
+}
+
+.footer__header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
